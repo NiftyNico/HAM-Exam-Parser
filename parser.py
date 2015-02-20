@@ -11,7 +11,7 @@ outFileIndex = 2;
 inFile = open(sys.argv[inFileIndex])
 outFile = open(sys.argv[outFileIndex], 'w');
 
-with open('raw-general.txt') as f:
+with inFile as f:
   givenContent = f.readlines();
 
 def toHeaderLine(separator):
