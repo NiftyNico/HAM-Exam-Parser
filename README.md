@@ -7,3 +7,5 @@ This parser removes all incorrect answers from the [ARRL](http://www.arrl.org/) 
   ```
   python parser.py inputFile.txt outputFile.txt
   ```
+##Just give me the files already!
+The files are available for download [here](https://github.com/NiftyNico/HAM-Exam-Parser/tree/master/AnswerPools)
