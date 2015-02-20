@@ -2,6 +2,7 @@ import sys
 
 if len(sys.argv) < 3:
   print('Please provide [inputfile] [outputfile]');
+  quit();
 
 aAscii = 65;
 numAnswers = 4;
