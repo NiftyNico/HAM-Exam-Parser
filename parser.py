@@ -31,7 +31,7 @@ def getAnswerI(headerLine):
   return ord(list(answerChar)[0]) - aAscii;
 
 for i in range(0, len(givenContent)):
-  if givenContent[i] == '~~\n':
+  if givenContent[i] == '~~\n' or givenContent[i] == '~~\r\n':
     headerLine = givenContent[toHeaderLine(i)];
     parsedContents.append(headerLine);
     parsedContents.append(givenContent[toQuestionLine(i)]);
